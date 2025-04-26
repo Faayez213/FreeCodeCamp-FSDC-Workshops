@@ -16,6 +16,7 @@ body{
     margin-right:auto;
     background-color:lavenderblush;
     text-align:center;
+    border: 2px solid black;
   }
   .profile-image{
     max-width:100%;
@@ -25,4 +26,20 @@ body{
   }
   a:hover{
     text-decoration:underline ;
+  }
+  .full-name{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .designation{
+    font-size: 20px;
+    opacity: 0.5;
+  }
+  .company{
+    font-size: 15px;
+    opacity: 0.3;
+  }
+  .social-media a{
+    color:brown;
+    margin-right: 15px;
   }
