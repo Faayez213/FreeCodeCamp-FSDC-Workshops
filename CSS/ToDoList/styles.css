@@ -1,49 +1,46 @@
 body{
-    background-color:silver;
-  }
-  
-  .todo-list{
-    width:300px; 
-    background-color:white;
-    margin:0 auto;
-    padding-bottom:15px;
-    border-radius:10px;
-  
-  }
-  .title{
-    padding-top:20px;
-  }
-  .task{
-    width:80%;
-    background-color:#e5f1e5;
-    margin-bottom:20px; 
-    padding:10px;
-    border-radius:10px;
-  
-  }
-  ul{
-    list-style-type:none;
-  }
-  .sub-item{
-    list-style-type:square;
-    padding:15px;
-    margin-left:10px;
-    
-  }
-  
-  a{
-    text-decoration:none;
-  }
-  a:visited{
-    color:purple;
-  }
-  a:hover{
-    color:red; 
-  }
-  a:active{
-    color:green;
-  }
-  
-  a:focus{
-    border: 1px solid blue;
-  }
+background-color:lightgrey;
+font-family:Arial, sans-serif;
+}
+
+h1{
+  text-align:center;
+}
+.todo-list{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:white;
+  border-radius:15px;
+  padding:20px;
+  max-width: 600px;
+}
+.item{
+  margin-top:20px;
+  background-color:lightblue;
+  padding-bottom:20px;
+  padding-top:15px;
+  padding-left:15px;
+  border-radius:15px;
+}
+
+ul li{
+  list-style-type:square;
+  list-style-position: inside;
+}
+.sub-item-link:link{
+  color:blue;
+  text-decoration:none;
+}
+.sub-item-link:visited{
+  color:grey;
+}
+.sub-item-link:hover{
+  color:black;
+}
+.sub-item-link:active{
+  color:pink;
+}
+.sub-item-link:focus{
+  border:1px solid red;
+}
